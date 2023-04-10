@@ -7,7 +7,7 @@ spring:
     properties.hibernate.format_sql: none
     spring.jpa.database-platform: org.hibernate.dialect.PostgreSQLDialect
   datasource:
-    url: jdbc:postgresql://localhost:5432/flywayTestingBd
+    url: jdbc:postgresql://localhost:5432/NewDB
     username: postgres
     password: worfa
     driverClassName: org.postgresql.Driver
