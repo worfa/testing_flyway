@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  jpa:
+    show-sql: true
+    properties.hibernate.format_sql: none
+    spring.jpa.database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: jdbc:postgresql://localhost:5432/flywayTestingBd
+    username: postgres
+    password: worfa
+    driverClassName: org.postgresql.Driver
