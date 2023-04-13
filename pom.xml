@@ -67,11 +67,11 @@
 				<artifactId>flyway-maven-plugin</artifactId>
 				<version>9.16.3</version>
 				<configuration>
-					<url>jdbc:postgresql://localhost:5432/TestBaseLine</url>
+					<url>jdbc:postgresql://localhost:5432/test_stand</url>
 					<user>postgres</user>
 					<password>worfa</password>
 					<cleanDisabled>false</cleanDisabled>
-					<target>2</target>
+					<target>4</target>
 				</configuration>
 			</plugin>
 		</plugins>
