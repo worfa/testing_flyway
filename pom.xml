@@ -70,7 +70,6 @@
 					<url>jdbc:postgresql://localhost:5432/prod_stand</url>
 					<user>postgres</user>
 					<password>worfa</password>
-					<cleanDisabled>false</cleanDisabled>
 				</configuration>
 			</plugin>
 		</plugins>
