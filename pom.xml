@@ -71,7 +71,6 @@
 					<user>postgres</user>
 					<password>worfa</password>
 					<cleanDisabled>false</cleanDisabled>
-					<target>2</target>
 				</configuration>
 			</plugin>
 		</plugins>
